@@ -5,8 +5,8 @@ var fs = require('fs'),
   _ = require('lodash'),
   concat = require('concat-stream'),
   GithubSlugger = require('github-slugger'),
-  createFormatters = require('../').util.createFormatters,
-  LinkerStack = require('../').util.LinkerStack,
+  createFormatters = require('documentation').util.createFormatters,
+  LinkerStack = require('documentation').util.LinkerStack,
   hljs = require('highlight.js');
 
 function isFunction(section) {
@@ -45,6 +45,9 @@ module.exports = function(comments, config) {
           return section.name;
         }
         return prefix + section.name + formatters.parameters(section, true);
+      },
+      formatParams(section) {
+        return formatters.parameters(section, true)
       },
       signature(section) {
         var returns = '';
