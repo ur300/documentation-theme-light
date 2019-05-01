@@ -1,13 +1,11 @@
 {
-  "name": "documentation-theme-default",
+  "name": "documentation-theme-light",
   "version": "1.0.0",
   "description": "the default theme for documentation",
-  "scripts": {
-    "test": "handlebars index.hbs section.hbs > /dev/null"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/documentationjs/documentation-theme-default.git"
+    "url": "https://github.com/ur300/documentation-theme-light"
   },
   "keywords": [
     "documentation",
