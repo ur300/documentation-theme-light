@@ -8,7 +8,7 @@ Based on [Maya Gao](https://github.com/mayagao) work.
 
 ## Usage
 
-1. Install theme: `npm install documentation-theme-light@ur300/documentation-theme-light`
+1. Install theme: `npm install documentation-theme-light`
 2. Use theme in documentation.js call. For instance:
 
    ```
