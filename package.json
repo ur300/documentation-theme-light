@@ -1,7 +1,7 @@
 {
   "name": "documentation-theme-light",
   "version": "1.0.0",
-  "description": "the default theme for documentation",
+  "description": "light theme for Documentation.js",
   "scripts": {},
   "repository": {
     "type": "git",
@@ -12,6 +12,6 @@
     "documentation-theme",
     "theme"
   ],
-  "author": "Maya Oppa",
+  "author": "Maya Gao",
   "license": "MIT"
 }
