@@ -52,7 +52,7 @@
 		</thead>
 		<% section.params.forEach(function(param) { %>
 		<tr>
-			<td class='col-3 strong'><%- param.name%></td>
+			<td class='col-3 strong'><code><%- param.name%></code></td>
 			<td class='col-3 quiet'>
 				<%= formatType(param.type)%>
 				<% if (param.default) { %>
