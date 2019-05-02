@@ -52,7 +52,7 @@ for (var j = 0; j < items.length; j++) {
 }
 
 function toggleSibling() {
-  var stepSibling = this.parentNode.getElementsByClassName('toggle-target')[0];
+  var stepSibling = this.nextElementSibling;
   var icon = this.getElementsByClassName('icon')[0];
   var klass = 'display-none';
   if (stepSibling.classList.contains(klass)) {
