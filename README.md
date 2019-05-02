@@ -1,6 +1,8 @@
 # documentation-theme-light
 
-An alternative theme for [documentation.js](https://github.com/documentationjs/documentation). Original author: Author [Maya Gao](https://github.com/mayagao).
+An alternative theme for [documentation.js](https://github.com/documentationjs/documentation).
+
+Based on [Maya Gao](https://github.com/mayagao) work.
 
 ![documentation-theme-light example](screenshot.png)
 
