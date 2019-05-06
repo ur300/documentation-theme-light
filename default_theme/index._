@@ -23,12 +23,14 @@
 					<div id="toc">
 						<% docs.forEach(function(doc) { %>
 						<% var hasMembers = doc.members.static.length || doc.members.instance.length %>
+						<% if (!doc.hideAtNavigation) { %>
 						<a
 								href='#<%=slug(doc.namespace)%>'
 								class="regular block<% if (doc.kind === 'note') { %>mt1 quiet rounded <% } %><% if (hasMembers) { %> toggle-sibling<% } %>">
 							<code><%- doc.name %></code>
 							<% if (hasMembers) { %><span class='icon'>▾</span><% } %>
 						</a>
+						<% } %>
 						<% if (hasMembers) { %>
 						<div class='toggle-target'>
 							<% if (doc.members.static && doc.members.static.length) { %>
