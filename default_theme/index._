@@ -5,12 +5,9 @@
 	<title><%- config['project-name'] %> <%- config['project-version'] %> | Documentation</title><% if (config['project-description']) { %>
 	<meta name='description' content='<%- config['project-description'] %>'><% } %>
 	<meta name='viewport' content='width=device-width,initial-scale=1'>
-	<link href='assets/bass.css' rel='stylesheet' />
-	<link href='assets/bass-addons.css' rel='stylesheet' />
-	<link href='assets/style.css' rel='stylesheet' />
-	<link href='assets/github.css' rel='stylesheet' />
-	<link href='assets/railscasts.css' rel='stylesheet' />
+	<link href='assets/styles.min.css' rel='stylesheet' />
 </head>
+
 <body class='documentation'>
 <div class='px2'>
 	<div class='clearfix md-flex lg-flex flex-stretch mxn2'>
@@ -98,7 +95,6 @@
 		</div>
 	</div>
 </div>
-<script src='assets/anchor.js'></script>
-<script src='assets/site.js'></script>
+<script src='assets/scripts.min.js'></script>
 </body>
 </html>

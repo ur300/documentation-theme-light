@@ -1,8 +1,14 @@
 {
   "name": "documentation-theme-light",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "light theme for Documentation.js",
-  "scripts": {},
+  "scripts": {
+    "clean": "rimraf default_theme/assets",
+    "buildStyles": "parcel build src/styles/screen.scss --out-file styles.min.css --out-dir default_theme/assets --no-source-maps",
+    "buildJs": "parcel build src/js/scripts.js --out-file scripts.min.js --out-dir default_theme/assets --no-source-maps",
+    "build": "yarn clean && yarn run buildStyles && yarn run buildJs",
+    "prepublish": "yarn run build"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ur300/documentation-theme-light"
@@ -13,5 +19,12 @@
     "theme"
   ],
   "author": "Maya Gao",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.20.1"
+  },
+  "dependencies": {
+    "anchor-js": "^4.2.0"
+  }
 }

@@ -1,3 +1,6 @@
+var anchorJS = require('anchor-js');
+var anchors = new anchorJS();
+
 /* global anchors */
 
 // add anchor links to headers
