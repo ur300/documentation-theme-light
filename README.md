@@ -4,9 +4,7 @@ An alternative theme for [documentation.js](https://github.com/documentationjs/d
 
 [**Demo**](https://ur300.github.io/documentation-theme-light/)
 
-<a>
-<img src="./screenshot.jpg" alt="documentation-theme-light demo" />
-</a>
+[<img src="https://github.com/ur300/documentation-theme-light/raw/master/screenshot.png" alt="documentation-theme-light demo" />](https://ur300.github.io/documentation-theme-light/)
 
 Based on [Maya Gao](https://github.com/mayagao) work.
 
