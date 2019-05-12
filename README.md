@@ -2,7 +2,7 @@
 
 An alternative theme for [documentation.js](https://github.com/documentationjs/documentation).
 
-Based on [Maya Gao](https://github.com/mayagao) work.
+Based on [Maya Gao](https://github.com/mayagao) work. [Demo](https://ur300.github.io/documentation-theme-light/)
 
 ![documentation-theme-light example](screenshot.png)
 
