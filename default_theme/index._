@@ -80,7 +80,7 @@
 		<div class='sm-col-12 md-col-9 lg-col-9 flex flex-column'>
 			<div class='flex-auto full-width'>
 				<% docs.forEach(function(s) { %>
-				<% if (s.kind === 'note') { %>
+				<% if (s.kind === 'note' && !s.children) { %>
 				<div class='keyline-top-not py2'><%=renderNote({ note: s })%></div>
 				<% } else { %>
 				<%= renderSection({
